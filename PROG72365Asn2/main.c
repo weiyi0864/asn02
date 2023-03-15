@@ -3,25 +3,7 @@
 #include <stdlib.h>
 #include "queue.h"
 
-void print_user(User user) {
-    printf("Username: %s, Level: %d, Faction: %s\n", user.name, user.level, user.factor);
-}
 
-void traverse(Queue* q, Node* node) {
-    if (node == NULL) {
-        return;
-    }
-    traverse(q, node->next);
-    print_user(node->player);
-}
-
-void traverseR(Queue* q, Node* node) {
-    if (node == NULL) {
-        return;
-    }
-    print_user(node->player);
-    traverseR(q, node->next);
-}
 
 int main(int argc, char* argv[]) {
     if (argc != 2) {

@@ -1,1 +1,7 @@
-﻿  PROG72365Asn2.vcxproj -> C:\Users\thomas\source\repos\PROG72365Asn2\x64\Debug\PROG72365Asn2.exe
+﻿  main.c
+  queue.c
+C:\Users\thomas\source\repos\asn02\PROG72365Asn2\queue.c(60,19): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\thomas\source\repos\asn02\PROG72365Asn2\queue.c(70,11): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\thomas\source\repos\asn02\PROG72365Asn2\queue.c(76,43): warning C4090: '=': different 'const' qualifiers
+  Generating Code...
+  PROG72365Asn2.vcxproj -> C:\Users\thomas\Source\Repos\asn02\x64\Debug\PROG72365Asn2.exe

@@ -22,3 +22,8 @@ int queue_is_empty(Queue* q);
 int queue_enqueue(Queue* q, User player);
 int queue_dequeue(Queue* q, User* player);
 int enqueue_random_users(Queue* q, int num_users);
+
+void print_user(User user);
+void traverse(Queue* q, Node* node);
+void traverseR(Queue* q, Node* node);
+

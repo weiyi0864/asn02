@@ -80,3 +80,23 @@ int enqueue_random_users(Queue* q, int num_users) {
     }
     return 0;
 }
+
+void print_user(User user) {
+    printf("Username: %s, Level: %d, Faction: %s\n", user.name, user.level, user.factor);
+}
+
+void traverse(Queue* q, Node* node) {
+    if (node == NULL) {
+        return;
+    }
+    print_user(node->player);
+    traverse(q, node->next);
+}
+
+void traverseR(Queue* q, Node* node) {
+    if (node == NULL) {
+        return;
+    }
+    traverseR(q, node->next);
+    print_user(node->player);
+}
